@@ -19,13 +19,18 @@ console.log(playlist)
 // OBJECTS SECTION
 // Task 5: Create an object called 'song' with 'title', 'artist', and 'duration' properties
 
-
+let song = {
+title: "creep",
+artist: "radiohead",
+duration: "4 minutes"
+}
+console.log(song)
 // Task 6: Add a property 'listenedTo' to the 'song' object and set it to false
-
-
+song.listenedTo = false
+console.log(song)
 // Task 7: Delete the 'artist' property
-
-
+delete song.artist
+console.log(song)
 // Commit your changes with an appropriate message.
 // ----------------------------------
 // NESTED ARRAYS & OBJECTS SECTION
